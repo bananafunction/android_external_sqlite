@@ -1,4 +1,4 @@
-URL: https://www.sqlite.org/src/info/7b4583f932ff0933
-Version: 3.9.3 7b4583f932ff0933280aa73ee69294b488f96d4f2bdc8422cd0136d944d9fb60
-Disable the undocumented rtreenode() SQL function that is only used for testing, except when doing a build that is specifically intended for testing.
+URL: https://sqlite.org/src/info/b584fd36f787e6d7
+Version: 3.9.3 b584fd36f787e6d7926dd54ce7e2cfcfe6616030e4e05f42a5725173e8a8a680
+Fix a buffer overread that could occur when running fts5 prefix queries inside a transaction.
 BugComponent: 24950
